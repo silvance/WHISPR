@@ -45,3 +45,8 @@ __pycache__/
 .venv/
 build/
 dist/
+
+# Extracted Windows installer payload
+/extracted_whispr_installer/
+/whispr.exe_extracted/
+pyinstxtractor.py
