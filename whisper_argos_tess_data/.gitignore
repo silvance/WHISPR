@@ -1,0 +1,47 @@
+# Installer/build output
+*.exe
+*.msi
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Audio/video/test media
+*.wav
+*.mp3
+*.mp4
+*.mkv
+*.json
+*.srt
+*.vtt
+*.lrc
+*.tsv
+
+# Whisper / faster-whisper models
+models/
+_model/
+_models/
+whisper_files/Faster-Whisper-XXL/_models/
+*.bin
+*.gguf
+*.pt
+*.onnx
+*.safetensors
+
+# Transcription outputs
+*transcrbie output*/
+*transcribe output*/
+output/
+outputs/
+
+# OCR / translation data
+tessdata/
+argos*/
+*.argosmodel
+
+# Python/cache/build junk
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
