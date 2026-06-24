@@ -1,52 +1,49 @@
-# Installer/build output
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv-whispr/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Large payloads / installers
+whisper_files/
+tessdata*/
+translate_plugins/
 *.exe
 *.msi
 *.zip
 *.7z
 *.tar
 *.tar.gz
-
-# Audio/video/test media
-*.wav
-*.mp3
-*.mp4
-*.mkv
-*.json
-*.srt
-*.vtt
-*.lrc
-*.tsv
-
-# Whisper / faster-whisper models
-models/
-_model/
-_models/
-whisper_files/Faster-Whisper-XXL/_models/
 *.bin
 *.gguf
 *.pt
 *.onnx
 *.safetensors
 
-# Transcription outputs
-*transcrbie output*/
-*transcribe output*/
+# Extraction/recovery work
+extracted_whispr_installer/
+whispr.exe_extracted/
+recovered_source/
+pycdc/
+pyinstxtractor.py
+extract_pyz.py
+
+# Outputs
 output/
 outputs/
-
-# OCR / translation data
-tessdata/
-argos*/
-*.argosmodel
-
-# Python/cache/build junk
-__pycache__/
-*.pyc
-.venv/
-build/
-dist/
-
-# Extracted Windows installer payload
-/extracted_whispr_installer/
-/whispr.exe_extracted/
-pyinstxtractor.py
+*transcribe output*/
+*transcrbie output*/
+*.srt
+*.vtt
+*.lrc
+*.tsv
+*.wav
+*.mp3
+*.mp4
+*.mkv

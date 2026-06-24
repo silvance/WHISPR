@@ -1,0 +1,16 @@
+ttkbootstrap
+pyperclip
+argostranslate
+lingua-language-detector
+pathvalidate
+pymupdf
+pytesseract
+pillow
+beautifulsoup4
+docx2txt
+python-pptx
+striprtf
+pandas
+numpy
+openpyxl
+lxml
